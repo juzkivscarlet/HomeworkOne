@@ -1,0 +1,197 @@
+/* Body */
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+    background-image: url(../assets/treebark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Blinker', sans-serif;
+    font-weight: 300;
+    width: 100%;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+}
+
+nav {
+    display: block;
+    box-shadow: 2px 2px 3px #111;
+}
+
+.nlogo a {
+    color: white;
+    text-decoration: none;
+}
+.nlogo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 32px;
+    text-shadow: 3px 3px 4px #111;
+}
+.nlogo:hover, .nlogo:focus, .nlogo:active {
+    font-weight: bold;
+}
+
+.navlinks {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.navlinks a {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 20px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #111;
+}
+.navlinks a:hover, .navbar a:focus, .navbar a:active {
+    color: white;
+    font-weight: 400;
+    text-shadow: 3px 3px 4px #111;
+    text-decoration: underline;
+}
+
+/* Body */
+.container {
+    position: static;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.pagetitle {
+    text-align: center;
+    background-color: rgba(200,200,200,0.6);
+    color: white;
+    font-size: 36px;
+    text-shadow: 3px 3px 4px #111;
+    padding: 4px 4px 4px 4px;
+    border: 4px;
+    border-style: inset;
+}
+
+.pagecontent {
+    margin-top: 20px;
+    background-color: rgba(255,255,255,0.6);
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border: 3px;
+    border-style: outset;
+}
+.pagecontent:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.page-desc {
+    text-align: center;
+    font-size: 28px;
+    text-shadow: 3px 3px 4px #111;
+    padding-bottom: 20px;
+}
+
+/* about me page */
+#mepic, .project-img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    box-shadow: 3px 3px 4px #111;
+    margin-right: 10px;
+}
+#aboutme {
+    text-align: right;
+}
+
+/* portfolio page */
+.row {
+    width: 100%;
+    margin-top: 10px;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* project-x classes for every odd-numbered project */
+.project-h2, .project2-h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.project-p {
+    text-align: right;
+} 
+
+/* project2-x classes for every even-numbered project */
+.project2-img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    box-shadow: 3px 3px 4px #111;
+    margin-left: 10px;
+}
+.project2-p {text-align: left;}
+/* contact page */
+.contact-form {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: table;
+    align-content: center;
+}
+#contact-table {
+    width: 100%;
+}
+#contact-table th {
+    text-align: left;
+    margin-right: 30px;
+}
+#contact-table tr {
+    height: 40px;
+}
+#contact-table input {
+    width: 200px;
+    text-align: right;
+}
+.contact-form textarea {
+    text-align: left;
+    margin-top: 4px;
+    box-shadow: 3px 3px 4px #111;
+}
+.contact-form button {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    background-color: #333;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
